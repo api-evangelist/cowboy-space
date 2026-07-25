@@ -1,8 +1,14 @@
 aid: cowboy-space
 name: Cowboy Space
-description: 'Cowboy Space is a company surfaced as a portfolio company of index-ventures, ribbit-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Cowboy Space Corporation builds space-based infrastructure for artificial-intelligence
+  computing. Its flagship program, Stampede, is a constellation of solar-powered GPU data centers in
+  Low Earth Orbit that integrate the rocket''s upper stage with the satellite to form a megawatt-class
+  data center with active thermal management and integrated compute. The company positions orbital
+  compute as an alternative to terrestrial data centers, whose grid-connection lead times in major US
+  markets can run five to seven years or more, arguing that Earth''s energy grid cannot keep pace with
+  AI demand. Cowboy Space is an early-stage aerospace and AI-infrastructure startup backed by Index
+  Ventures and Ribbit Capital; it currently publishes a corporate and careers presence with no public
+  developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/cowboy-space/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,30 @@ x-backed-by:
 - ribbit-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/0329Z2COjkiHgcW28b3reMPgXg.png
 tags:
 - Company
-- Unknown
+- Space
+- Aerospace
+- Data Centers
+- Artificial Intelligence
+- Cloud Infrastructure
+- GPU Compute
+- Satellites
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cowboy-space-domain-security.yml
 - type: Website
   url: https://www.cowboyspace.com/
+- type: TermsOfService
+  url: https://www.cowboyspace.com/terms
+- type: PrivacyPolicy
+  url: https://www.cowboyspace.com/privacy
+- type: Careers
+  url: https://jobs.ashbyhq.com/cowboyspace
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
